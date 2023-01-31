@@ -1,0 +1,99 @@
+@charset "utf-8";
+*{
+  margin: 0px; padding: 0px; color: #333;text-decoration: none; list-style: none;
+}
+body{
+  
+    font-family:"맑은 고딕",arial,sans-serif;
+    font-size:14px;
+    color:#333;
+  
+}
+section{
+  width: 800px;
+  margin: 0px auto;}
+section>fieldset{
+  border: none;
+}
+section>h2{
+  font-size: 18px;
+  line-height: 42px;
+  display: inline-block;
+}
+section legend{display: none;}
+
+fieldset{
+  width: 100%;
+  line-height: 60px;
+  border: none;
+  margin-top: 10px;
+  position: relative;
+}
+fieldset > legend{
+  display: none;
+}
+fieldset > i.fas{
+  color: #640faf;
+  position: absolute;
+  top: 25px;
+  left: 15px;
+}
+fieldset #search{
+  border: 1px solid #640faf;
+  width: 100%;
+  height: 35px;
+  border-radius: 20px;
+  text-indent: 40px;
+}
+section a{
+  float: right;
+  font-size: 12px;
+  color: rgb(177, 168, 168);
+  line-height: 42px;
+}
+.fa-angle-right{
+  color: rgb(177, 168, 168);
+}
+.fa-angle-down{
+  float: right;
+  font-size: 18px;
+  transform: translateY(15px);
+  cursor: pointer;
+
+}
+.faq dt{
+  border-top: 1px solid rgb(177, 168, 168);
+  line-height: 50px;
+  font-weight: bold;
+}
+.faq dt span{
+  color: #640faf;
+  font-weight: bold;
+  font-size: 14px;
+  padding: 0px 10px 0px 10px;
+}
+.faq dt:last-of-type{
+  border-bottom: 1px solid rgb(177, 168, 168);
+}
+.faq dd{
+font-weight: bold;
+padding: 0px 10px 15px 10px;
+background: #fafafa;
+color:  rgb(177, 168, 168);;
+font-size: 14px;
+display: none;
+}
+.faq dd p{
+  font-weight: bold;
+padding: 0px 10px 0px 10px;
+background: #fafafa;
+color:  rgb(177, 168, 168);
+font-size: 14px;
+padding-bottom: 15px;
+
+}
+.act01{
+  
+  transform: rotate(180deg);
+
+}
